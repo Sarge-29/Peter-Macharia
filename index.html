@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Food Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #c85c0e;
+    }
+
+    img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background: #c85c0e;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Food Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#pilau">Pilau</a>
+      <a href="#beefstew">Beef Stew</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Welcome to My Kitchen 🍽️</h2>
+    <p>Hello! I'm excited to share with you my favorite meals and a bit about who I am. Scroll down and enjoy!</p>
+    <a href="#about" class="btn">Get to Know Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>👨‍🍳 About Me</h2>
+    <img src="mike.webp" alt="My profile photo" style="max-width:150px;" />
+    <p>Hey there! I'm Peter Macharia, an aspiring web developer with a passion for tasty homemade meals. I love learning new things, especially when it comes to both coding and cooking.</p>
+
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript (basic)</li>
+      <li>Cooking traditional meals</li>
+    </ul>
+
+    <h3>Fun Facts</h3>
+    <ul>
+      <li>I once cooked for 20 people alone 🍛</li>
+      <li>I started coding with food blogs</li>
+    </ul>
+  </section>
+
+  <!-- Pilau Section -->
+  <section id="pilau">
+    <h2>🥘 Pilau Recipe</h2>
+    <img src="pilau.webp" alt="Delicious Pilau"/>
+    <h3>Ingredients</h3>
+    <ul>
+      <li>2 cups rice</li>
+      <li>1/2 kg beef</li>
+      <li>2 onions, garlic & ginger</li>
+      <li>Pilau masala</li>
+      <li>2 tomatoes</li>
+      <li>Oil, salt, and water</li>
+    </ul>
+
+    <h3>Instructions</h3>
+    <ol>
+      <li>Fry onions till brown, add garlic and ginger.</li>
+      <li>Add beef and cook till soft.</li>
+      <li>Add tomatoes and spices.</li>
+      <li>Mix in rice and water, let it cook slowly.</li>
+    </ol>
+
+    <p><strong>Tip:</strong> Tastes even better with a side of kachumbari!</p>
+  </section>
+
+  <!-- Beef Stew Section -->
+  <section id="beefstew">
+    <h2>🍖 Beef Stew Recipe</h2>
+    <img src="beef stew.webp" alt="Beef Stew"/>
+    <h3>Ingredients</h3>
+    <ul>
+      <li>1/2 kg beef chunks</li>
+      <li>2 onions, 3 tomatoes</li>
+      <li>Carrots, potatoes (optional)</li>
+      <li>Garlic, curry powder, salt & oil</li>
+    </ul>
+
+    <h3>Instructions</h3>
+    <ol>
+      <li>Boil beef until tender.</li>
+      <li>Sauté onions, add garlic and curry powder.</li>
+      <li>Add tomatoes and cook till soft.</li>
+      <li>Add beef, carrots, and potatoes.</li>
+      <li>Simmer until thick and delicious.</li>
+    </ol>
+
+    <p><strong>Best with:</strong> Ugali, rice or chapati 😋</p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ and hunger | © 2025</p>
+  </footer>
+
+</body>
+</html>
